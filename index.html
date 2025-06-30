@@ -109,6 +109,11 @@
       opacity: 0;
       animation: fadeInText 5s ease-in-out forwards;
       color: #7b4f78;
+}
+    .fade-in-delay3 {
+      opacity: 0;
+      animation: fadeInText 6.5s ease-in-out forwards;
+      color: #7b4f78;
     }
     @keyframes fadeInText {
       from { opacity: 0; transform: translateY(20px); }
@@ -118,25 +123,72 @@
       color: #d6336c;
       font-weight: bold;
     }
+.scroll-to-wish {
+  margin-top: 3em;
+  text-align: center;
+  animation: fadeInFooter 2s ease forwards;
+}
+
+.scroll-to-wish p {
+  font-size: 1.2em;
+  color: #b65c87;
+  margin-bottom: 0.8em;
+  font-weight: 500;
+}
+
+.scroll-to-wish button {
+  background: #ffdce4;
+  color: #a20052;
+  padding: 0.8em 1.6em;
+  border: none;
+  border-radius: 30px;
+  font-size: 1em;
+  font-family: 'Lora', serif;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.4);
+  transition: all 0.3s ease;
+}
+
+.scroll-to-wish button:hover {
+  background: #ffc1d4;
+  transform: scale(1.05);
+}
+
   </style>
 </head>
 <body>
-  <section class="landing">
-    <h1 class="fade-in">Hey, Beautiful 💗</h1>
-    <br/>
-    <p class="fade-in-delay" style="margin-top: 10px; font-size: 1.2em; color: #666;">
-      It’s your birthday today.
-    </p>
-    <p class="fade-in-delay2" style="margin-top: 20px; font-size: 1.1em; color: #555; max-width: 500px;">
-      And I just want to honour everything you are—<br/>
-      the patience 🕊️, the chaos 🌪️, the softness 🌷.<br/><br/>
-      You’ve held space for me to grow 🌱<br/>
-      So today, I celebrate you ✨
-    </p>
-    <div class="scroll-down"></div>
-  </section>
 
-  <section class="message">
+  <section class="landing">
+  <h1 class="fade-in" style="color: #d6336c;">Hey, Beautiful 💗</h1>
+
+  <p class="fade-in-delay" style="margin-top: 10px; font-size: 1.2em; color: #a0526d;">
+    Today is your special day.
+  </p>
+
+  <p class="fade-in-delay2" style="margin-top: 20px; font-size: 1.1em; color: #6e3d57; max-width: 500px;">
+    And I just want to celebrate everything that makes you... <span style="color: #d6336c; font-weight: bold;">YOU</span>.<br/>
+    <span style="color: #b45e8c;">The way you feel deeply.</span><br/>
+    <span style="color: #b45e8c;">The way you stay soft</span>, even when things get hard.<br/>
+    The way you love <span style="color: #d6336c;">(quietly, but completely)</span>.
+  </p>
+
+  <p class="fade-in-delay3" style="margin-top: 30px; font-size: 1em; color: #7b4f78;">
+    So, let me take you for a walk down memory lane...<br/>
+    To remind you how <span style="color: #d6336c;">beautiful</span> you are 💗
+  </p>
+
+  <div class="scroll-down"></div>
+
+<a href="#memories" style="text-decoration: none;">
+    <button style="margin-top: 20px; padding: 10px 20px; background-color: #d6336c; color: white; border: none; border-radius: 25px; font-size: 1em; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: background 0.3s ease;">
+      Take Me There 🤝
+    </button>
+  </a>
+
+</section>
+
+
+  <section class="message" id="memories">
     <!-- Floating SVG Hearts -->
     <!-- (SVG hearts remain unchanged and are not shown here for brevity) -->
  <svg class="heartSVG heart1" viewBox="0 0 32 29.6"><path d="M23.6,0c-3.1,0-5.6,2.5-7.6,5.1C14,2.5,11.5,0,8.4,0C3.8,0,0,3.8,0,8.4c0,4.5,3.4,8.3,10.1,13.7c1.4,1.1,2.9,2.3,4.6,3.6c1.7-1.3,3.2-2.5,4.6-3.6C28.6,16.7,32,12.9,32,8.4C32,3.8,28.2,0,23.6,0z"/></svg>
@@ -156,30 +208,135 @@
       <p>That one day we'll never forget 💫</p>
     </div>
 
-    <p>I still remember the first time we met.<br/>
-      You were loud and chaotic, while I was quiet and awkward.<br/>
-      But that night, in the silence of your presence... I felt safe.<br/>
-      And somehow, that stayed with me.
+    <p>I still remember the first day we met.<br/>
+	We had a deep and personal conversation.<br/>
+	The way you listened made me feel seen and heard.<br/>
+	It felt like I was hugging a beautiful guardian angel.<br/>
 </p>
 
     <div class="image-block">
       <img src="placeholder2.jpg" alt="Doctor visit">
-      <p>Waiting for the bus that never came 🚌</p>
+      <p>Waiting for our ride</p>
     </div>
 
   <p>
-      I remember the day you took me to the doctor.<br/>
-      We waited for a slow bus that never seemed to move.<br/>
-      And I thought this is what I worry about most; that I can’t give much yet.<br/>
-      But you waited. You stayed. Even laughed with me about the doctor who passed by us like we were invisible.
-    </p>
+      I remember the day you came with me to the clinic.<br/>
+	We were in queue, waiting for a bus that took forever.<br/>
+	I felt so insecure. I had nothing to offer, not even a ride.<br/>
+	But you didn’t complain. You stayed.<br/>
+	And in that moment, I realised… you never needed much. Just me.<br/>
+   </p>
 
     <div class="image-block">
       <img src="placeholder3.jpg" alt="Beach moment">
-      <p>Stargazing with clouds in our way ☁️</p>
+      <p>Angin kuat gila</p>
     </div>
 
-    <!-- Rest of your paragraphs remain here -->
+<p>
+We went to the beach to chase the stars.<br/>
+But the sky was cloudy, and the wind was wild.<br/>
+Still, you held my hand, laughed it off, and stayed present.<br/>
+That night, you taught me it’s okay when things don’t go as planned.<br/>
+Because sometimes, the moment itself is enough.<br/>
+</p>
+
+ <div class="image-block">
+      <img src="placeholder4.jpg" alt="Beach moment">
+      <p>Before work mesti call I dulu :')</p>
+    </div>
+
+<p>
+Long-distance wasn’t easy.<br/>
+But you made it feel a little less far.<br/>
+Like that one time my feet were suffering from a kutu-kucing attack 😭<br/>
+And you sent me a cream :)<br/>
+The distance didn't stop you from caring.<br/>
+You always find a way.<br/>
+</p>
+
+ <div class="image-block">
+      <img src="placeholder5.jpg" alt="Beach moment">
+      <p>Selfie paling aesthetic</p>
+    </div>
+
+<p>
+Living together wasn’t easy too 😂<br/>
+We’ve argued while cooking,<br/>
+Snapped at each other in the bedroom (especially when we’re tired),<br/>
+And had to figure out how to live together without losing ourselves.<br/>
+But somehow… we always found our way back to understanding.<br/>
+Because deep down, we both just want to feel seen and safe.<br/>
+</p>
+
+ <div class="image-block">
+      <img src="placeholder6.jpg" alt="Beach moment">
+      <p>Otw nak masuk surau ni 😂 </p>
+    </div>
+
+<p>
+There was a time I was completely lost.<br/>
+Jobless. Directionless.<br/>
+And at my lowest, I did things that hurt you.<br/>
+But you didn’t walk away.<br/>
+You stayed. Quietly, but firmly.<br/>
+And because of that… I learned what it means to truly be loved.<br/>
+</p>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<p>
+There are so many more memories I could list,<br/>
+our first gig, our new year together,<br/>
+the moment you cooked nasi goreng & ayam paprik sedap nak mampos,<br/>
+your velocity content 💀, naik gunung pulai,<br/>
+pergi book fair (you suggested me buku healing which was the pembuka I start baca buku2 self help),<br/>
+my convo photoshoot.<br/>
+</p>
+
+<p>
+But I’ll stop here… for now.<br/>
+Because this? This isn’t the end of our story.<br/>
+We’re still writing it page by page, day by day.<br/>
+</p>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div class="image-block">
+      <img src="placeholder7.jpg" alt="Beach moment">
+      <p>29th June 1999<br/>
+A fine shyt was born 🔥<br/>
+</p>
+    </div>
+
+<div class="scroll-to-wish fade-in-footer delay3">
+  <p>Ada lagi... belum habis XD. My Final Words...(for now)💌</p>
+  <button onclick="scrollToWish()">Click to read</button>
+</div>
+
+<section class="birthday-wish">
+<p>
+Happy Birthday, Sayang 💗<br/>
+I don’t say this enough but thank you for being you.<br/>
+For your quiet patience, your loud laugh,<br/>
+and the way you love me even when I’m a mess.<br/>
+<br/>
+We’ve grown a lot.<br/>
+From awkward conversations to cooking together (or arguing about it 😂).<br/>
+From long-distance check-ins to living under the same roof.<br/>
+<br/>
+This page doesn’t even cover half of what we’ve been through.<br/>
+But I hope it reminded you of this :<br/>
+You are beautiful, inside and out.<br/>
+And I’m the luckiest person to love you.<br/>
+<br/>
+Happy birthday, my favourite human💗<br/>
+Here’s to more memories, more love, and more makan sama-sama ✨<br/>
+</p>
+
   </section>
 
 <audio id="bg-music" autoplay loop>
@@ -199,6 +356,14 @@
     document.addEventListener('click', playMusic);
     document.addEventListener('touchstart', playMusic);
   });
+
+function scrollToWish() {
+  const wishSection = document.querySelector('.birthday-wish');
+  if (wishSection) {
+    wishSection.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
 </script>
 </body>
 </html>
